@@ -49,6 +49,8 @@ body.active #main{display:flex}
 .s-pink-noise{background:var(--noise),var(--pink)}
 .s-beige-dots{background:radial-gradient(rgba(150,105,70,.22) 1.4px,transparent 1.8px) 0 0/24px 24px,var(--beige)}
 .s-pink-lines{background:repeating-linear-gradient(-45deg,rgba(183,110,121,.12) 0 1px,transparent 1px 14px),var(--pink)}
+.s-photo-beige{background:linear-gradient(rgba(241,228,211,.58),rgba(241,228,211,.58)),url('assets/fondo.jpg') center/cover no-repeat}
+.s-photo-pink{background:linear-gradient(rgba(249,220,228,.55),rgba(249,220,228,.55)),url('assets/fondo.jpg') center/cover no-repeat}
 .blob{position:absolute;border-radius:50%;filter:blur(40px);opacity:.6;pointer-events:none;z-index:0;width:220px;height:220px}
 .tag{font-family:'Cinzel',serif;font-size:14px;letter-spacing:6px;text-transform:uppercase;color:var(--accent-d);margin-bottom:25px;font-weight:700}
 .script{font-family:'Pinyon Script',cursive;font-size:80px;margin-bottom:20px;line-height:1.1;font-weight:400;-webkit-text-stroke:.8px var(--dark);letter-spacing:1.5px}
@@ -168,7 +170,7 @@ select.inp{appearance:none;-webkit-appearance:none;text-align-last:center;cursor
   </section>
 
   <!-- Familia -->
-  <section class="sec s-beige-lines">
+  <section class="sec s-photo-beige">
     <div class="blob" style="background:var(--pink2);bottom:10%;left:-90px"></div>
     <div class="anim up d1 ititle">Con el amor de mis padres</div>
     <div class="anim up d2 idata">Daniel Guadarrama</div>
@@ -223,7 +225,7 @@ select.inp{appearance:none;-webkit-appearance:none;text-align-last:center;cursor
   </section>
 
   <!-- Dress code -->
-  <section class="sec s-pink-lines">
+  <section class="sec s-photo-pink">
     <div class="anim up d1 ititle">Código de Vestimenta</div>
     <div class="anim up d2 idata" style="font:700 40px 'Cinzel',serif;margin:20px 0;letter-spacing:6px">FORMAL</div>
     <div class="anim up d3 vline" style="height:40px"></div>
@@ -252,7 +254,7 @@ select.inp{appearance:none;-webkit-appearance:none;text-align-last:center;cursor
   </section>
 
   <!-- Galería en vivo -->
-  <section class="sec s-beige-lines">
+  <section class="sec s-photo-beige">
     <div class="blob" style="background:var(--pink2);top:15%;left:-90px"></div>
     <div class="anim up d1 ititle">Momentos</div>
     <div class="anim up d2 idata" style="font-size:34px">Galería en Vivo</div>
